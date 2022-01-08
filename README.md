@@ -5,10 +5,10 @@ A simple portfolio with a breif bio, screenshots of some of my current work, alo
 This challenge was to create a basic three-section portfolio using HTML and CSS.
 
 Features
-*Responsive layout
-*Semantic HTML
-*Sticky header & navbar
-*Link to my GitHub repo
+* Responsive layout
+* Semantic HTML
+* Sticky header & navbar
+* Link to my GitHub repo
 
 ## Links
 [Link to the website](https://adambowers09.github.io/My-Portfolio/)
