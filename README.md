@@ -8,6 +8,14 @@ Features
 *Responsive layout
 *Semantic HTML
 *Sticky header & navbar
+*Link to my GitHub repo
 
 ## Links
+[Link to the website](https://adambowers09.github.io/my-basic-portfolio/)
+
+[Link to code reop](https://github.com/adambowers09/my-basic-portfolio)
+
+## Screenshot
+![screenshot of my page](./assets/images/02-Portfolio.png)
+
 
