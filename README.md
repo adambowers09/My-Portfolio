@@ -8,6 +8,7 @@ Features
 * Responsive layout
 * Semantic HTML
 * Sticky header & navbar
+* Responsive layout and images that scale to large small screens
 * Link to my GitHub repo & LinkedIn
 
 ## Links
@@ -16,6 +17,6 @@ Features
 [Link to code repo](https://github.com/adambowers09/my-basic-portfolio)
 
 ## Screenshot
-![screenshot of my page](./assets/images/02-Portfolio.png)
+![screenshot of my page](./assets/images/02-Portfolio-screencapture.png)
 
 
