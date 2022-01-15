@@ -13,6 +13,10 @@ body {
     background-image: url(../images/background-pattern-wordpress-1.png);
 }
 
+p {
+    font-size: 16px;
+}
+
 .header {
     position: sticky;
     display: flex;
@@ -21,7 +25,7 @@ body {
     top: 0;
     padding: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #494b4d;
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -35,7 +39,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .header nav ul {
@@ -52,11 +56,46 @@ body {
     margin-left: 40px;
 }
 
+.hero {
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/wp2700080.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 85%;
+    padding: 50px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.float {
+    float: left;
+    margin-right: 25px;
+}
+
+.bio {
+    margin-bottom: 50px;
+    padding: 50px;
+    height: 400px;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #292929;
+    color: #ffffff;
+    font-size: 16px;    
+    flex-wrap: wrap;
+}
+
+.bio img {
+    max-height: 250px;;
+}
+
 .bio nav ul {
     list-style-type: none;
 }
-
-
 
 .bio nav ul li {
     margin: 40px 0;
@@ -66,37 +105,38 @@ body {
 .bio nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
+}  
 
-.bio {
+.contact {
     margin-bottom: 50px;
     padding: 50px;
     height: 400px;
     width: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #494b4d;
+    background-color: #292929;
     color: #ffffff;
     font-size: 16px;    
     flex-wrap: wrap;
 }
 
-.bio img {
-    max-height: 250px;
+.contact nav ul {
+    list-style-type: none;
 }
 
-.bio h2, .portfolio h2 {
+.contact nav ul li {
+    margin: 40px 0;
+    display: block;
+}
+
+.contact nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}    
+
+.bio h2, .portfolio h2, .contact h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.content {
-    width: 85%;
-    padding: 50px;
-    display: inline-block;
-    margin-left: 20px;
-    margin-top: 80px;
-}
-
 
 .portfolio {
     margin-bottom: 50px;
@@ -104,34 +144,110 @@ body {
     height: 1500;
     width: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #494b4d;
+    background-color: #292929;
     color: #ffffff;
-    font-size: 16px;    
     flex-wrap: wrap;
     
 }
 
-
 .portfolio img {
-    max-height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-height: 800px;
+    width: 60%;
+    margin-bottom: 32px;
 }
 
-
-.float {
-    float: left;
-    margin-right: 25px;
-}
 
 .footer {
-    padding: 30px;
+    padding: 50px  30px 30px;
     clear: both;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     
 }
+
+.runbuddy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    width: 60%;
+    margin-bottom: 32px;
+}
+
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 768px) {
+    .header h1{
+        font-size: 30px;
+    }
+    
+    
+    .header nav ul {
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 18px;
+    }
+    
+    
+    .header nav ul li{
+        display: inline-block;
+        
+    }
+
+    .bio img {
+        display: none;
+    
+    }
+
+    .bio {
+        max-height: 600px;
+        padding: 25px
+    }
+
+    
+    .bio h2, .portfolio h2, .contact h2 {
+        font-size: 20px;
+        
+    }
+    
+    .bio p {
+        font-size: 10px;
+        
+    }
+    
+    .container {
+        margin: 20px;
+        padding: 25px;
+        width: 85%;
+    }
+    
+    .contact nav ul li {
+        font-size: 12px;
+    }
+
+    .footer {
+        padding: 80px 30px 30px;
+    }
+
+    .portfolio {
+        padding-bottom: 40px;
+    }
+
+    .portfolio img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .runbuddy {
+        width: 100%;
+    }
+
+}
+
 
 
 

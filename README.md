@@ -8,7 +8,7 @@ Features
 * Responsive layout
 * Semantic HTML
 * Sticky header & navbar
-* Link to my GitHub repo
+* Link to my GitHub repo & LinkedIn
 
 ## Links
 [Link to the website](https://adambowers09.github.io/My-Portfolio/)
